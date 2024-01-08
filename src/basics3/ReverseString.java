@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class ReverseString {
     public static void main(String[] args) {
+        //Reverse string using StringBuilder inbuilt method.
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter String to reverse: ");
         String inputUser = sc.next();
