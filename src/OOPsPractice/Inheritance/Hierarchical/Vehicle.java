@@ -1,7 +1,6 @@
 package src.OOPsPractice.Inheritance.Hierarchical;
 
 public class Vehicle {
-//Vehicle has 2 subclasses Car and AutoRickshaw and uses its methods by extending
     int tyres;
     int seats;
     String color;

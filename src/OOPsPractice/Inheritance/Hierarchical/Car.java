@@ -1,7 +1,6 @@
 package src.OOPsPractice.Inheritance.Hierarchical;
 
-public class Car extends Vehicle{
-    int seats;
+public class Car extends Vehicle{ int seats;
     int tyres;
     String make;
     String color;
@@ -21,5 +20,6 @@ public class Car extends Vehicle{
         this.color=cColor;
         this.make=cMake;
     }
+
 
 }

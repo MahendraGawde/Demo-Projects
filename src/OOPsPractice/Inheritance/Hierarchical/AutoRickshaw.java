@@ -8,5 +8,4 @@ public class AutoRickshaw extends Vehicle{
         this.tyres=tyres;
         System.out.println("Auto 2 seats and 3 tyres");
     }
-
 }
