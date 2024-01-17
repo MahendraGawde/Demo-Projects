@@ -1,5 +1,5 @@
 package src.OOPsPractice.Interface;
 
-public interface acclerate {
+public interface Acclerate {
     void acclerateCar();
 }
