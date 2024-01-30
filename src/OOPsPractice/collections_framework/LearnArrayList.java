@@ -26,6 +26,7 @@ public class LearnArrayList {
         list.add(40);
         list.add(50);
         list.add(70);
+        list.add(90);
         System.out.println(list);
         list.add(5,60);
         System.out.println(list);

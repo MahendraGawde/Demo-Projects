@@ -12,6 +12,7 @@ public class LearnStack {
         fruits.push("Apples");
         fruits.push("Kiwis");
         fruits.push("Banana");
+        fruits.push("Grapes");
 
         System.out.println("Stack of fruits: " +fruits);
         System.out.println(fruits.peek());

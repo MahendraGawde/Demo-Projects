@@ -13,6 +13,7 @@ public class SetExample {
         set.add(48);
         set.add(60);
         set.add(48);
+        set.add(60);
         System.out.println(set);
         System.out.println(set.size());
         

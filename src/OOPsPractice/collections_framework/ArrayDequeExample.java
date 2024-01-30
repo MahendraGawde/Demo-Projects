@@ -8,6 +8,7 @@ public class ArrayDequeExample {
         //As it reads from forward as well as backward direction
         ArrayDeque<Integer> adq = new ArrayDeque<>();
         adq.add(12);
+        adq.add(15);
         adq.offer(78);
         adq.offerFirst(27);
         adq.offer(34);

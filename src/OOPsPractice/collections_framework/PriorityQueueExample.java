@@ -11,6 +11,7 @@ public class PriorityQueueExample {
         pq.offer(10);
         pq.offer(29);
         pq.offer(37);
+        pq.offer(39);
 
         System.out.println(pq);
 

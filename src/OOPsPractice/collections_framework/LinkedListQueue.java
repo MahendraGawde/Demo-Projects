@@ -14,10 +14,12 @@ public class LinkedListQueue {
         are no elements in queue. while its simultaneous
         */
         Queue<Integer> queue = new LinkedList<>();
+        queue.offer(3);
         queue.offer(5);
         queue.offer(7);
         queue.offer(9);
         queue.offer(11);
+
 
         System.out.println(queue);
         System.out.println(queue.peek());
