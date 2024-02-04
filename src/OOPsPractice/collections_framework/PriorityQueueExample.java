@@ -1,5 +1,6 @@
 package src.OOPsPractice.collections_framework;
 
+
 import java.util.PriorityQueue;
 
 public class PriorityQueueExample {
