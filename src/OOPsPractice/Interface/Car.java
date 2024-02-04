@@ -1,6 +1,6 @@
 package src.OOPsPractice.Interface;
 
-public class Car implements Engine,Breaks,acclerate{
+public class Car implements Engine,Breaks,Accelerate {
 
     void startCar(){
         System.out.println("Start car..");
@@ -33,7 +33,7 @@ public class Car implements Engine,Breaks,acclerate{
     }
 
     @Override
-    public void acclerateCar() {
+    public void accelerateCar() {
         System.out.println("Acclerate Car");
     }
 }
