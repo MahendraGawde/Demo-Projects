@@ -1,6 +1,6 @@
 package src.basics1;
 
-public class Demo {
+public class StringBufferDemo {
     public static void main(String[] args) {
        StringBuffer sb = new StringBuffer("Hello 2024...!");
 
