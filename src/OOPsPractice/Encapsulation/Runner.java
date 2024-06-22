@@ -6,9 +6,9 @@ public class Runner {
         String userCredname = loginUser.getUsername();
         System.out.println(userCredname);
 
-        //loginUser.setUsername("admin1");
+//        loginUser.setUsername("admin1");
 
-        boolean check = loginUser.isLoggedIn("admin","admin");
+        boolean check = loginUser.isLoggedIn("admin","password");
         System.out.println(check);
 
     }

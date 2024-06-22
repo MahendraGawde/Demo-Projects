@@ -10,16 +10,18 @@ they won't be misuse outside class for login mechanism.
 
 public class SiteLogin {
 
-    public String getUsername() {
+    private String username;
+    private final String password;
+
+    public String getUsername()    {
         return username;
     }
 
-    public void setUsername(String username) {
+    public void setUsername(String username)    {
         this.username = username;
     }
 
-    private String username;
-    private final String password;
+
 
     SiteLogin(String uname, String pwd){
         this.username=uname;
